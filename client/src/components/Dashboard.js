@@ -5,13 +5,13 @@ const Dashboard = () => {
   return (
     <div>
       Dashboard
-      <div class="fixed-action-btn">
+      <div className="fixed-action-btn">
         <Link
           style={{ position: 'absolute', bottom: '50px', right: '50px' }}
           to="/surveys/new"
-          class="btn-floating btn-large red"
+          className="btn-floating btn-large red"
         >
-          <i class="large material-icons">add</i>
+          <i className="large material-icons">add</i>
         </Link>
       </div>
     </div>
